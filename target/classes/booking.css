@@ -1,0 +1,65 @@
+.text{
+     -fx-text-fill: #000;          /* Color */
+     -fx-font-family: "Roboto Light"; /* Font Family */
+     -fx-font-size: 21px;          /* Font Size */
+     -fx-font-style: normal;       /* Font Style */
+     -fx-font-weight: 400;         /* Font Weight */
+     -fx-line-height: normal;      /* Line Height */
+     -fx-background-color: rgba(0,0,0,0);
+ }
+.label{
+    -fx-text-fill: #000;          /* Color */
+    -fx-font-family: "Open Sans";     /* Font Family */
+    -fx-font-size: 65px;          /* Font Size */
+    -fx-font-style: normal;       /* Font Style */
+    -fx-font-weight: 400;         /* Font Weight */
+    -fx-background-color: rgba(0,0,0,0);
+}
+.cart{
+    -fx-background-image: url("asstes/Booking/cart.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.cart:hover{
+    -fx-background-image: url("asstes/Booking/cartHaving.png");
+}
+.send{
+    -fx-background-image: url("asstes/Booking/send.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.send:hover{
+    -fx-background-image: url("asstes/Booking/sendhaving.png");
+}
+.forest{
+    -fx-background-image: url("asstes/Booking/forest.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.forest:hover{
+    -fx-background-image: url("asstes/Booking/forensrhaving.png");
+}
+.hike{
+    -fx-background-image: url("asstes/Booking/hike.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.hike:hover{
+    -fx-background-image: url("asstes/Booking/hikehavin.png");
+}
+.camp{
+    -fx-background-image: url("asstes/Booking/camp.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.camp:hover{
+    -fx-background-image: url("asstes/Booking/camphavin.png");
+}
+.search{
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-font-family: "Roboto";
+    -fx-font-size: 20px;
+    -fx-font-style: normal;
+    -fx-font-weight: 300;
+    -fx-line-height: normal;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="941.0" prefWidth="1615.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Conroller.EmoloyeeManageFormController">
+   <children>
+      <ImageView fitHeight="950.0" fitWidth="1627.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/epmloyeeForm.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="ID" layoutX="135.0" layoutY="251.0" prefHeight="38.0" prefWidth="511.0" styleClass="text" stylesheets="@../Employee.css" />
+      <TextField fx:id="Name" layoutX="829.0" layoutY="251.0" prefHeight="45.0" prefWidth="511.0" styleClass="text" stylesheets="@../Employee.css" />
+      <TextField fx:id="Address" layoutX="825.0" layoutY="374.0" prefHeight="15.0" prefWidth="511.0" styleClass="text" stylesheets="@../Employee.css" />
+      <TextField fx:id="Number" layoutX="132.0" layoutY="500.0" prefHeight="15.0" prefWidth="511.0" styleClass="text" stylesheets="@../Employee.css" />
+      <TextField fx:id="job_type" layoutX="130.0" layoutY="374.0" prefHeight="38.0" prefWidth="511.0" styleClass="text" stylesheets="@../Employee.css" />
+      <TextField fx:id="salary" layoutX="134.0" layoutY="621.0" prefHeight="15.0" prefWidth="511.0" styleClass="text" stylesheets="@../Employee.css" />
+      <TextField fx:id="Age" layoutX="825.0" layoutY="501.0" prefHeight="15.0" prefWidth="511.0" styleClass="text" stylesheets="@../Employee.css" />
+      <Button layoutX="1409.0" layoutY="304.0" mnemonicParsing="false" onAction="#eReportOnActhion" prefHeight="145.0" prefWidth="185.0" styleClass="emp" stylesheets="@../Employee.css" />
+      <Button layoutX="1408.0" layoutY="466.0" mnemonicParsing="false" onAction="#servantReport" prefHeight="144.0" prefWidth="186.0" styleClass="ser" stylesheets="@../Employee.css" />
+      <Button layoutX="1407.0" layoutY="627.0" mnemonicParsing="false" onAction="#driverReport" prefHeight="144.0" prefWidth="188.0" styleClass="dri" stylesheets="@../Employee.css" />
+      <Button layoutX="185.0" layoutY="731.0" mnemonicParsing="false" onAction="#addbtnOnActhion" prefHeight="81.0" prefWidth="209.0" styleClass="add" stylesheets="@../Employee.css" />
+      <Button layoutX="486.0" layoutY="730.0" mnemonicParsing="false" onAction="#updteOnActhion" prefHeight="79.0" prefWidth="213.0" styleClass="update" stylesheets="@../Employee.css" />
+      <Button layoutX="783.0" layoutY="731.0" mnemonicParsing="false" onAction="#deleteOnActhion" prefHeight="79.0" prefWidth="212.0" styleClass="delete" stylesheets="@../Employee.css" />
+      <Button layoutX="1075.0" layoutY="731.0" mnemonicParsing="false" onAction="#ReportbtnOnActhion" prefHeight="79.0" prefWidth="210.0" styleClass="report" stylesheets="@../Employee.css" />
+      <TextField fx:id="search" layoutX="516.0" layoutY="68.0" onAction="#searchOnActhion" prefHeight="55.0" prefWidth="430.0" promptText="Search Here ..........." styleClass="search" stylesheets="@../booking.css" />
+      <TextField fx:id="birthday" layoutX="824.0" layoutY="621.0" prefHeight="15.0" prefWidth="511.0" styleClass="text" stylesheets="@../Employee.css" />
+      <DatePicker fx:id="new_birthday" layoutX="824.0" layoutY="620.0" prefHeight="46.0" prefWidth="546.0" styleClass="text" stylesheets="@../Employee.css" />
+      <Button layoutX="952.0" layoutY="56.0" mnemonicParsing="false" onAction="#QrbtnOnActhion" opacity="0.0" prefHeight="79.0" prefWidth="85.0" text="Button" />
+      <Button layoutX="686.0" layoutY="247.0" mnemonicParsing="false" onAction="#editbtnOnActhion" prefHeight="55.0" prefWidth="59.0" styleClass="edit" stylesheets="@../Dashobrd.css" />
+   </children>
+</AnchorPane>

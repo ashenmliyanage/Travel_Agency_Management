@@ -1,0 +1,102 @@
+.btm{
+    -fx-background-color: #FFAF52;
+    -fx-border-color: #FFD952;
+    -fx-border-width: 1px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 158, 226, 0.10), 0, 16, 0, 0);
+    -fx-min-width: 171.703px;
+    -fx-pref-width: 171.703px;
+    -fx-max-width: 171.703px;
+    -fx-min-height: 65.073px;
+    -fx-pref-height: 65.073px;
+    -fx-max-height: 65.073px;
+    -fx-flex-shrink: 0;
+    -fx-text-fill: #000; /* Sets text color */
+    -fx-alignment: center; /* Sets text alignment */
+    -fx-font-family: "Cabinet Grotesk"; /* Sets font family */
+    -fx-font-size: 14px; /* Sets font size */
+    -fx-font-style: normal; /* Sets font style */
+    -fx-font-weight: 700; /* Sets font weight */
+    -fx-line-height: 18px; /* Sets line height */
+    -fx-text-transform: uppercase; /* Sets text to uppercase */
+}
+.text{
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-text-fill: #000; /* Sets text color */
+    -fx-font-family: "Cabinet Grotesk"; /* Sets font family */
+    -fx-font-size: 24px; /* Sets font size */
+    -fx-font-style: normal; /* Sets font style */
+    -fx-font-weight: 500; /* Sets font weight */
+    -fx-line-height: 18px; /* Sets line height */
+}
+.btm:hover{
+    -fx-background-color: #ff8a00;
+    -fx-border-color: #FFD952;
+    -fx-border-width: 1px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 158, 226, 0.10), 0, 16, 0, 0);
+}
+
+.btn{
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-background-image: url("asstes/1.png");
+    -fx-background-radius: 31px;
+    -fx-text-fill: #FFF;
+    -fx-background-size: cover;
+}
+.btn:hover{
+    -fx-background-image: url("asstes/2.png");
+}
+.sub{
+    -fx-background-color: #FFAF52;
+    -fx-border-color: #FFD952;
+    -fx-border-width: 1px;
+    -fx-background-radius: 11px;
+    -fx-border-radius: 11px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 0, 4, 0, 0);
+    -fx-min-width: 630px;
+    -fx-pref-width: 618px;
+    -fx-max-width: 650px;
+    -fx-min-height: 71px;
+    -fx-pref-height: 71px;
+    -fx-max-height: 71px;
+    -fx-flex-shrink: 0;
+    -fx-text-fill: #FFF; /* Sets text color */
+    -fx-font-family: "Open Sans"; /* Sets font family */
+    -fx-font-size: 32px; /* Sets font size */
+    -fx-font-style: normal; /* Sets font style */
+    -fx-font-weight: 700; /* Sets font weight */
+    -fx-line-height: 18px; /* Sets line height */
+}
+.sub:hover{
+    -fx-background-color: #ff8a00;
+    -fx-border-color: #FFD952;
+}
+.Mail{
+    -fx-background-image: url("asstes/Verify.png");
+    -fx-background-size: Cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.Mail:hover{
+    -fx-background-image: url("asstes/verifyHaving.png");
+}
+.OPT{
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-text-fill: #000; /* Sets text color to black (#000) */
+    -fx-font-family: "Open Sans"; /* Sets font family */
+    -fx-font-size: 55px; /* Sets font size to 70 pixels */
+    -fx-font-style: normal; /* Sets font style */
+    -fx-font-weight: 600; /* Sets font weight to 600 */
+    -fx-line-spacing: 18px; /* Sets line height to 18 pixels */
+    -fx-spacing: 100px;
+    -fx-padding: 10px;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}
+.face{
+     -fx-background-image: url("asstes/Facerecognition.png");
+     -fx-background-size: cover;
+     -fx-background-color: rgba(0,0,0,0);
+ }

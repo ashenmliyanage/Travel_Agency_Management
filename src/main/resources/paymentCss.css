@@ -1,0 +1,32 @@
+.chart{
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-text-fill: #ffffff;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-padding: 10px 20px;
+    -fx-alignment: center;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+.dowm{
+    -fx-background-color: rgba(0,0,0,0);
+}
+.table{
+    -fx-background-image: url("/asstes/newForPay.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(255, 255, 255, 0.00);
+}
+.totla{
+    -fx-text-fill: #404040;
+    -fx-font-family: 'Jaldi';
+    -fx-font-size: 47px;
+    -fx-font-style: normal;
+    -fx-font-weight: 400;
+}
+.cus{
+    -fx-text-fill: #404040;
+    -fx-font-family: 'Jaldi';
+    -fx-font-size: 47px;
+    -fx-font-style: normal;
+    -fx-font-weight: 400;
+}

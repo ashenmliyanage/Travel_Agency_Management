@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="949.0" prefWidth="1630.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Conroller.HotelFormController">
+   <children>
+      <ImageView fitHeight="999.0" fitWidth="1631.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/Hotel.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1281.0" layoutY="95.0" mnemonicParsing="false" onAction="#ManageBtnOnActhion" prefHeight="110.0" prefWidth="258.0" styleClass="manage" stylesheets="@../Hotel.css" />
+      <Button layoutX="218.0" layoutY="600.0" mnemonicParsing="false" opacity="0.0" prefHeight="101.0" prefWidth="74.0" text="Button" />
+      <Button layoutX="324.0" layoutY="550.0" mnemonicParsing="false" onAction="#NuwaraEliya" opacity="0.0" prefHeight="101.0" prefWidth="74.0" text="Button" />
+      <Button layoutX="416.0" layoutY="641.0" mnemonicParsing="false" onAction="#Katharagama" opacity="0.0" prefHeight="101.0" prefWidth="74.0" text="Button" />
+      <Button layoutX="230.0" layoutY="272.0" mnemonicParsing="false" onAction="#Anuradapura" opacity="0.0" prefHeight="101.0" prefWidth="74.0" text="Button" />
+      <Label fx:id="Loc" layoutX="933.0" layoutY="554.0" prefHeight="65.0" prefWidth="635.0" style="-fx-alignment: center; -fx-font-size: 35px;" />
+      <Label fx:id="Room" layoutX="929.0" layoutY="713.0" prefHeight="65.0" prefWidth="635.0" style="-fx-alignment: center; -fx-font-size: 35px;" styleClass="lable" stylesheets="@../Hotel.css" />
+      <Button layoutX="214.0" layoutY="764.0" mnemonicParsing="false" onAction="#Galle" opacity="0.0" prefHeight="101.0" prefWidth="74.0" text="Button" />
+      <Button layoutX="109.0" layoutY="684.0" mnemonicParsing="false" onAction="#Colombo" opacity="0.0" prefHeight="101.0" prefWidth="74.0" text="Button" />
+      <Label fx:id="Name" layoutX="927.0" layoutY="406.0" prefHeight="65.0" prefWidth="635.0" style="-fx-alignment: center; -fx-font-size: 35px; -fx-font-family: &quot;Open Sans&quot;;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

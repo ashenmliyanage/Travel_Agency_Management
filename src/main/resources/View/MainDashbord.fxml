@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="MainPane" prefHeight="1080" prefWidth="1920" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Conroller.MainDashbordFormController">
+   <children>
+      <ImageView fitHeight="1090.0" fitWidth="1938.0" layoutX="-2.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/MainDashbord.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="eCircale" fitHeight="102.0" fitWidth="102.0" layoutX="100.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/DashbordIcon/cir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="employee" fitHeight="102.0" fitWidth="102.0" layoutX="100.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/DashbordIcon/cir.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="112.0" layoutY="344.0" mnemonicParsing="false" onAction="#empBtnOnActhion" onMouseEntered="#OnMouce" onMouseExited="#ExitMouse" prefHeight="76.0" prefWidth="77.0" styleClass="emp" stylesheets="@../Dashobrd.css" />
+      <ImageView fx:id="bCir" fitHeight="102.0" fitWidth="102.0" layoutX="99.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/DashbordIcon/cir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hCir" fitHeight="102.0" fitWidth="102.0" layoutX="100.0" layoutY="545.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/DashbordIcon/cir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cCir" fitHeight="102.0" fitWidth="102.0" layoutX="100.0" layoutY="662.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/DashbordIcon/cir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mCir" fitHeight="102.0" fitWidth="102.0" layoutX="100.0" layoutY="765.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/DashbordIcon/cir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pCir" fitHeight="102.0" fitWidth="102.0" layoutX="100.0" layoutY="879.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/DashbordIcon/cir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dCir" fitHeight="102.0" fitWidth="102.0" layoutX="100.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/DashbordIcon/cir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Dashbord" fitHeight="102.0" fitWidth="102.0" layoutX="99.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/DashbordIcon/cir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="booking" fitHeight="102.0" fitWidth="102.0" layoutX="99.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/DashbordIcon/cir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hotel" fitHeight="102.0" fitWidth="102.0" layoutX="100.0" layoutY="545.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/DashbordIcon/cir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="car" fitHeight="102.0" fitWidth="102.0" layoutX="100.0" layoutY="662.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/DashbordIcon/cir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="member" fitHeight="102.0" fitWidth="102.0" layoutX="100.0" layoutY="765.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/DashbordIcon/cir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Payment" fitHeight="102.0" fitWidth="102.0" layoutX="100.0" layoutY="879.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/DashbordIcon/cir.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="111.0" layoutY="232.0" mnemonicParsing="false" onAction="#DashbordbtnOnActhion" onMouseEntered="#OnDashBord" onMouseExited="#ExitDashbord" styleClass="main" stylesheets="@../Dashobrd.css" translateX="1.0">
+         <graphic>
+            <ImageView fitHeight="87.0" fitWidth="88.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asstes/dahbord.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <opaqueInsets>
+            <Insets right="40.0" />
+         </opaqueInsets>
+      </Button>
+      <Button layoutX="112.0" layoutY="450.0" mnemonicParsing="false" onAction="#bookngbtnActhon" onMouseEntered="#OnBooking" onMouseExited="#ExitBooking" styleClass="main" stylesheets="@../Dashobrd.css">
+         <opaqueInsets>
+            <Insets right="40.0" />
+         </opaqueInsets>
+         <graphic>
+            <ImageView fitHeight="62.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asstes/DashbordIcon/book.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="116.0" layoutY="560.0" mnemonicParsing="false" onAction="#hotelbtnOnActhion" onMouseEntered="#OnHotel" onMouseExited="#ExitHotel" styleClass="main" stylesheets="@../Dashobrd.css">
+         <opaqueInsets>
+            <Insets right="40.0" />
+         </opaqueInsets>
+         <graphic>
+            <ImageView fitHeight="54.52" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asstes/DashbordIcon/hotel.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="121.0" layoutY="684.0" mnemonicParsing="false" onAction="#carOnActhion" onMouseEntered="#OnCar" onMouseExited="#ExitCar" styleClass="main" stylesheets="@../Dashobrd.css">
+         <opaqueInsets>
+            <Insets right="40.0" />
+         </opaqueInsets>
+         <graphic>
+            <ImageView fitHeight="38.02" fitWidth="43.91" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asstes/DashbordIcon/car.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="117.0" layoutY="784.0" mnemonicParsing="false" onAction="#memberBtnOnActhion" onMouseEntered="#OnMember" onMouseExited="#ExitMember" styleClass="main" stylesheets="@../Dashobrd.css">
+         <opaqueInsets>
+            <Insets right="40.0" />
+         </opaqueInsets>
+         <graphic>
+            <ImageView fitHeight="48.49" fitWidth="53.14" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asstes/DashbordIcon/member.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="119.0" layoutY="906.0" mnemonicParsing="false" onAction="#paymentOnClick" onMouseEntered="#OnPay" onMouseExited="#exitPay" styleClass="main" stylesheets="@../Dashobrd.css">
+         <opaqueInsets>
+            <Insets right="40.0" />
+         </opaqueInsets>
+         <graphic>
+            <ImageView fitHeight="33.3" fitWidth="48.08" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asstes/DashbordIcon/pay.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <AnchorPane fx:id="ChangePane" layoutX="230.0" layoutY="65.0" prefHeight="950.0" prefWidth="1629.0" />
+   </children>
+</AnchorPane>

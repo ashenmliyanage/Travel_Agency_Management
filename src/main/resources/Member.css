@@ -1,0 +1,20 @@
+.table{
+    -fx-background-color: rgba(79, 174, 206, 0.70);
+    -fx-font-family: "Martel Sans";
+    -fx-font-size: 20px;
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+    -fx-text-fill: #353535;
+    -fx-background-radius: 30px;
+    -fx-alignment: center;
+}
+.camara{
+    -fx-background-image: url("asstes/phototake.png");
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-size: cover;
+}
+.camara:hover{
+    -fx-background-image: url("asstes/phototakehaving.png");
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-size: cover;
+}

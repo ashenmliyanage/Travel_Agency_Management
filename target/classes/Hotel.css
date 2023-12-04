@@ -1,0 +1,52 @@
+.manage{
+    -fx-background-image: url("asstes/manage.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.manage:hover {
+    -fx-background-image: url("asstes/manageHaving.png");
+}
+.lable{
+    -fx-text-fill: #000;          /* Color */
+    -fx-font-family: "Ubuntu";    /* Font Family */
+    -fx-font-size: 53px;          /* Font Size */
+    -fx-font-style: normal;       /* Font Style */
+    -fx-font-weight: 400;         /* Font Weight */
+    -fx-line-height: normal;      /* Line Height */
+    -fx-background-color: rgba(0,0,0,0);
+}
+.text{
+    -fx-text-fill: #000;          /* Color */
+    -fx-font-family: "Jaldi";     /* Font Family */
+    -fx-font-size: 19px;          /* Font Size */
+    -fx-font-style: normal;       /* Font Style */
+    -fx-font-weight: 400;         /* Font Weight */
+    -fx-line-height: normal;
+    -fx-background-color: #FFFF;
+}
+.search{
+    -fx-text-fill: #BBC4CF;       /* Color */
+    -fx-font-family: "Inter";     /* Font Family */
+    -fx-font-size: 17px;          /* Font Size */
+    -fx-font-style: normal;       /* Font Style */
+    -fx-font-weight: 400;         /* Font Weight */
+    -fx-line-height: normal;      /* Line Height */
+    -fx-background-color: rgba(0,0,0,0);
+}
+.import{
+    -fx-background-image: url("asstes/Import.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.import:hover{
+    -fx-background-image: url("asstes/importHaving.png");
+}
+.name {
+    -fx-text-fill: red;
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 100px;
+    -fx-font-weight: bold;
+}
+.M{
+    -fx-background-color: linear-gradient(to right,rgba(246, 227, 235, 1) 0%, rgba(213, 222, 237, 1) 100%);
+}

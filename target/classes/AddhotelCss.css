@@ -1,0 +1,19 @@
+.text{
+    -fx-text-fill: black;
+
+    /* Font family */
+    -fx-font-family: "Open Sans Hebrew";
+
+    /* Font size */
+    -fx-font-size: 24px;
+
+    /* Font style (normal is the default, so you can omit this property) */
+    -fx-font-style: normal;
+
+    /* Font weight (400 is equivalent to normal) */
+    -fx-font-weight: normal;
+
+    /* Line height (JavaFX uses -fx-line-spacing for line spacing) */
+    -fx-line-spacing: 0;
+    -fx-background-color: #FFFF;
+}

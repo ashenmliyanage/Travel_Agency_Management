@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="950.0" prefWidth="1627.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Conroller.BookingFormController">
+   <children>
+      <ImageView fitHeight="949.0" fitWidth="1630.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/booking%20form.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="ID" layoutX="126.0" layoutY="122.0" onAction="#IdOnActhion" prefHeight="66.0" prefWidth="511.0" styleClass="text" stylesheets="@../booking.css" />
+      <TextField fx:id="Name" layoutX="125.0" layoutY="246.0" prefHeight="66.0" prefWidth="511.0" styleClass="text" stylesheets="@../booking.css" />
+      <TextField fx:id="Room" layoutX="121.0" layoutY="512.0" prefHeight="66.0" prefWidth="308.0" styleClass="text" stylesheets="@../booking.css" />
+      <TextField fx:id="R_hour" layoutX="440.0" layoutY="512.0" prefHeight="66.0" prefWidth="198.0" styleClass="text" stylesheets="@../booking.css" />
+      <TextField fx:id="V_hour" layoutX="445.0" layoutY="648.0" prefHeight="66.0" prefWidth="198.0" styleClass="text" stylesheets="@../booking.css" />
+      <TextField fx:id="vehicle" layoutX="120.0" layoutY="648.0" prefHeight="66.0" prefWidth="308.0" styleClass="text" stylesheets="@../booking.css" />
+      <Label fx:id="H_cost" layoutX="1387.0" layoutY="292.0" prefHeight="41.0" prefWidth="162.0" stylesheets="@../booking.css" />
+      <Label fx:id="V_cost" layoutX="1387.0" layoutY="406.0" prefHeight="41.0" prefWidth="162.0" stylesheets="@../booking.css" />
+      <Label fx:id="Other_cost" layoutX="1377.0" layoutY="516.0" prefHeight="41.0" prefWidth="162.0" stylesheets="@../booking.css" />
+      <Label fx:id="Total" layoutX="1400.0" layoutY="735.0" prefHeight="41.0" prefWidth="137.0" stylesheets="@../booking.css" />
+      <Button layoutX="680.0" layoutY="518.0" mnemonicParsing="false" onAction="#R_sendbtnOnActhion" prefHeight="51.0" prefWidth="169.0" styleClass="send" stylesheets="@../booking.css" />
+      <Button layoutX="680.0" layoutY="665.0" mnemonicParsing="false" onAction="#V_sendbtnOnActhion" prefHeight="51.0" prefWidth="169.0" styleClass="send" stylesheets="@../booking.css" />
+      <Button layoutX="681.0" layoutY="830.0" mnemonicParsing="false" onAction="#CartbtnOnActhion" prefHeight="76.0" prefWidth="204.0" styleClass="cart" stylesheets="@../booking.css" />
+      <Button fx:id="hikebtn" layoutX="104.0" layoutY="776.0" mnemonicParsing="false" onAction="#hikebtnOnActhion" styleClass="other" stylesheets="@../../../../../Final_Project/src/main/resources/View/Style/Booking.css" translateX="5.0">
+         <graphic>
+            <ImageView fitHeight="76.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Final_Project/src/main/resources/View/asstes/hiking.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="campbtn" layoutX="267.0" layoutY="776.0" mnemonicParsing="false" onAction="#CampbtnOnActhion" styleClass="other" stylesheets="@../../../../../Final_Project/src/main/resources/View/Style/Booking.css" translateX="5.0">
+         <graphic>
+            <ImageView fitHeight="76.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Final_Project/src/main/resources/View/asstes/forest.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="forestbtn" layoutX="425.0" layoutY="776.0" mnemonicParsing="false" onAction="#ForestbtnOnActhion" styleClass="other" stylesheets="@../../../../../Final_Project/src/main/resources/View/Style/Booking.css" translateX="5.0">
+         <graphic>
+            <ImageView fitHeight="76.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Final_Project/src/main/resources/View/asstes/camping.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="search" layoutX="518.0" layoutY="35.0" onAction="#searchOnActhion" prefHeight="50.0" prefWidth="326.0" promptText="Search Here ..." styleClass="search" stylesheets="@../booking.css" />
+      <DatePicker fx:id="Date" layoutX="120.0" layoutY="370.0" prefHeight="66.0" prefWidth="540.0" styleClass="text" stylesheets="@../booking.css" />
+   </children>
+</AnchorPane>

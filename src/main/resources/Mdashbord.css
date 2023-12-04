@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&family=Montserrat:wght@500&display=swap');
+
+.contry{
+    -fx-background-color: #FFFF;
+    -fx-text-fill: #77A8B6; /* Sets text color to the specified color */
+    -fx-font-family: "Inter"; /* Sets font family */
+    -fx-font-size: 14px; /* Sets font size to 14 pixels */
+    -fx-font-style: normal; /* Sets font style to normal */
+    -fx-font-weight: 400; /* Sets font weight to 400 (usually equivalent to "normal") */
+    -fx-line-spacing: normal; /* Sets line height to normal */
+}
+@font-face {
+    src: url('View/Font/Jaldi-Regular.ttf');
+    -fx-font-family: 'jadi';
+}
+.Name{
+    -fx-text-fill: #000; /* Sets text color to the specified color (#000) */
+    -fx-font-family: 'jadi'; /* Sets font family */
+    -fx-font-size: 17px; /* Sets font size to 17 pixels */
+    -fx-font-style: normal; /* Sets font style to normal */
+    -fx-font-weight: 400; /* Sets font weight to 400 (usually equivalent to "normal") */
+    -fx-line-spacing: normal; /* Sets line height to normal */
+    -fx-background-color: rgba(0,0,0,0);
+}
+.loc{
+    -fx-text-fill: #77A8B6; /* Sets text color to the specified color (#77A8B6) */
+    -fx-font-family: 'jadi'; /* Sets font family */
+    -fx-font-size: 14px; /* Sets font size to 17 pixels */
+    -fx-font-style: normal; /* Sets font style to normal */
+    -fx-font-weight: 400; /* Sets font weight to 400 (usually equivalent to "normal") */
+    -fx-line-spacing: normal; /* Sets line height to normal */
+    -fx-background-color: rgba(0,0,0,0);
+}
+.more{
+    -fx-background-image: url("asstes/DashbordIcon/more.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.more:hover{
+    -fx-background-image: url("asstes/DashbordIcon/morehaving.png");
+}
+.view{
+    -fx-background-image: url("asstes/DashbordIcon/viewAll.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.view:hover{
+    -fx-background-image: url("asstes/DashbordIcon/viewAllHaving.png");
+}
+.search{
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-fill: #77A8B6; /* Set text color to #77A8B6 */
+    -fx-font-family: "Inter"; /* Set font family to 'Inter' */
+    -fx-font-size: 17px; /* Set font size to 17px */
+    -fx-font-style: normal; /* Set font style to normal */
+    -fx-font-weight: 400; /* Set font weight to 400 */
+    -fx-line-height: normal; /* Set line height to normal */
+}
+.sidebar{
+    -fx-text-fill: #FFF;
+    -fx-font-family: 'jadi';
+    -fx-font-size: 26px;
+    -fx-font-style: normal;
+    -fx-font-weight: 400;
+    -fx-line-height: 22px;
+    -fx-background-color: #E09C8E;
+}
+.sideName{
+    -fx-text-fill: #051B32;
+    -fx-font-family: 'jadi';
+    -fx-font-size: 33px;
+    -fx-font-style: normal;
+    -fx-line-height: 22px;
+    -fx-text-alignment: center;
+}
+.username{
+    -fx-text-fill: #F00;
+    -fx-font-family: 'jadi';
+    -fx-font-size: 30px;
+    -fx-font-style: normal;
+    -fx-font-weight: 400;
+    -fx-line-height: 22px;
+}
+.sideMore{
+    -fx-background-image: url("asstes/DashbordIcon/sidemore.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.sideMore:hover{
+    -fx-background-image: url("asstes/DashbordIcon/sidemorehaving.png");
+}
+.sideClose{
+    -fx-background-image: url("asstes/sidebarclose.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.sideClose:hover{
+    -fx-background-image: url("asstes/sidebarclosehaving.png");
+}
+.save{
+    -fx-background-image: url("asstes/save.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.save:hover{
+    -fx-background-image: url("asstes/sdieHaving.png");
+}

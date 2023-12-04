@@ -1,0 +1,82 @@
+
+@font-face {
+    src: url('View/Font/Jaldi-Regular.ttf');
+    -fx-font-family: 'jadi';
+}
+
+.text{
+    -fx-text-fill: #000;          /* Color */
+    -fx-font-family: 'jadi';     /* Font Family */
+    -fx-font-size: 22px;          /* Font Size */
+    -fx-font-style: normal;       /* Font Style */
+    -fx-font-weight: 40;         /* Font Weight */
+    -fx-line-height: normal;      /* Line Height */
+    -fx-background-color: #FFFF;
+}
+.emp{
+    -fx-background-image: url("asstes/EmpBTN/employee.png");
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-size: cover;
+}
+.emp:hover{
+    -fx-background-image: url("asstes/EmpBTN/empHaving.png");
+}
+.ser{
+    -fx-background-image: url("asstes/EmpBTN/sirvantbtn.png");
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-size: cover;
+}
+.ser:hover{
+    -fx-background-image: url("asstes/EmpBTN/servanthaving.png");
+}
+.dri{
+    -fx-background-image: url("asstes/EmpBTN/Driver.png");
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-size: cover;
+}
+.dri:hover{
+    -fx-background-image: url("asstes/EmpBTN/exporthaving.png");
+}
+.add{
+    -fx-background-image: url("asstes/EmpBTN/addbtn.png");
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-size: cover;
+}
+.add:hover{
+    -fx-background-image: url("asstes/EmpBTN/addhaving.png");
+}
+.update{
+    -fx-background-image: url("asstes/EmpBTN/update.png");
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-size: cover;
+}
+.update:hover{
+    -fx-background-image: url("asstes/EmpBTN/updatehaving.png");
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-size: cover;
+}
+.delete{
+    -fx-background-image: url("asstes/EmpBTN/delete.png");
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-size: cover;
+}
+.delete:hover{
+    -fx-background-image: url("asstes/EmpBTN/deletehaving.png");
+}
+.report{
+    -fx-background-image: url("asstes/EmpBTN/report.png");
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-size: cover;
+}
+.report:hover{
+    -fx-background-image: url("asstes/EmpBTN/reportHaving.png");
+}
+.search{
+    -fx-text-fill: #BBC4CF;       /* Color */
+    -fx-font-family: "Inter";     /* Font Family */
+    -fx-font-size: 17px;          /* Font Size */
+    -fx-font-style: normal;       /* Font Style */
+    -fx-font-weight: 400;         /* Font Weight */
+    -fx-line-height: normal;      /* Line Height */
+    -fx-background-color: #FFFF;
+}

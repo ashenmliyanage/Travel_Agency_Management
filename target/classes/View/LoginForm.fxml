@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="Pane" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Conroller.LoginFormController">
+   <children>
+      <ImageView fitHeight="1105.0" fitWidth="1958.0" layoutX="-2.0" layoutY="-19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/Slide%2016_9%20-%20png.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="Uername" layoutX="980.0">
+         <children>
+            <ImageView fitHeight="1060.0" fitWidth="885.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asstes/Frame%2038.png" />
+               </image>
+            </ImageView>
+            <Button mnemonicParsing="false" onAction="#facebtnOnActhion" prefHeight="57.0" prefWidth="60.0" styleClass="face" stylesheets="@../login.css" translateX="525.0" translateY="845.0" />
+            <PasswordField fx:id="Password" prefHeight="57.0" prefWidth="521.0" styleClass="text" stylesheets="@../login.css" translateX="230.0" translateY="520.0" />
+            <TextField fx:id="Username" layoutX="234.0" layoutY="416.0" prefHeight="55.0" prefWidth="523.0" styleClass="text" stylesheets="@../login.css" />
+            <Button layoutX="363.0" layoutY="665.0" mnemonicParsing="false" onAction="#loginBtnOnActhion" styleClass="btm" stylesheets="@../login.css" text="LOGIN" />
+            <Button layoutX="588.0" layoutY="589.0" mnemonicParsing="false" onAction="#ForgetOnActhion" opacity="0.0" prefHeight="39.0" prefWidth="178.0" text="Button" />
+            <Button layoutX="396.0" layoutY="839.0" mnemonicParsing="false" onAction="#QrOnActhion" opacity="0.0" prefHeight="73.0" prefWidth="108.0" text="Button" />
+         </children>
+      </Pane>
+      <Pane fx:id="Qr" translateX="1236.0" translateY="171.0">
+         <children>
+            <ImageView fitHeight="831.0" fitWidth="452.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asstes/Frame%2022png.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="114.0" layoutY="493.0" mnemonicParsing="false" onAction="#ScanbtnOnActhion" styleClass="btm" stylesheets="@../login.css" text="Scan" />
+            <Button layoutX="124.0" layoutY="699.0" mnemonicParsing="false" onAction="#UserOnActhion" prefHeight="76.0" prefWidth="137.0" styleClass="btn" stylesheets="@../login.css" />
+         </children>
+      </Pane>
+      <Pane fx:id="ForgrtMail" layoutX="1089.0" layoutY="166.0">
+         <children>
+            <ImageView fitHeight="583.0" fitWidth="702.0" pickOnBounds="true" preserveRatio="true" translateX="-1.0" translateY="5.0">
+               <image>
+                  <Image url="@../asstes/frorgetPass.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="36.0" layoutY="448.0" maxWidth="670.0" mnemonicParsing="false" onAction="#SubmitbtnOnActhion" prefWidth="670.0" styleClass="sub" stylesheets="@../login.css" text="Submit" />
+            <TextField fx:id="mailenter" layoutX="104.0" layoutY="333.0" prefHeight="65.0" prefWidth="575.0" styleClass="text" stylesheets="@../login.css" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

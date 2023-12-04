@@ -1,0 +1,91 @@
+.dash{
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-radius: 60px;
+}
+.dash:hover{
+    -fx-background-color: #FFFF;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 5, 0, 0);
+}
+.emp{
+    -fx-background-image: url("asstes/DashbordIcon/Employee.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.main{
+    -fx-background-color: rgba(0,0,0,0);
+}
+.exit{
+    -fx-background-image: url("asstes/exitbtn.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.exit:hover{
+    -fx-background-image: url("asstes/exitbtnHaving.png");
+}
+.addUser{
+    -fx-background-image: url("asstes/UserAddbtn.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.addUser:hover{
+    -fx-background-image: url("asstes/UseraddbtnHaving.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.text{
+    -fx-text-fill: #000;
+    -fx-font-family: 'Inter';
+    -fx-font-size: 22px;
+    -fx-font-style: normal;
+    -fx-line-height: 1.0;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.userback{
+    -fx-background-image: url("asstes/userbackbtn.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.userback:hover{
+    -fx-background-image: url("asstes/userbackbtnHaving.png");
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-size: cover;
+}
+.time_textfield{
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-font: 20px "ATROX";
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFF;
+}
+.date_textfield{
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-font: 13px "ATROX";
+    -fx-font-weight: Bold;
+    -fx-text-fill: #FFFF;
+}
+.function{
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+
+}
+.function:hover{
+    -fx-background-color: Transparent;
+    -fx-border-color: Transparent;
+    -fx-shadow-color: #FDE2E0FF;
+    -fx-effect: dropshadow(gaussian, #6586A3,15,0,0,0);
+}
+.date{
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #FFFF;
+    -fx-font-size: 35px;
+    -fx-font-weight: Bold;
+}
+.edit{
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-image: url("asstes/editbtn.png");
+    -fx-background-size: Cover;
+}
+.edit:hover{
+   -fx-background-image: url("asstes/edithaving.png");
+}

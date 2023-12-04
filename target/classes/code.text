@@ -1,0 +1,234 @@
+package lk.ijse.timberCooperation.controller;
+
+import com.jfoenix.controls.JFXButton;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.geometry.Insets;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+
+public class timberFormController {
+
+
+    @FXML
+    private AnchorPane anchorTimber;
+
+    @FXML
+    private JFXButton btnFactory;
+
+    @FXML
+    private JFXButton btnLogOut;
+
+    @FXML
+    private JFXButton btnOverview;
+
+    @FXML
+    private JFXButton btnSawmill;
+
+    @FXML
+    private JFXButton btnSeasoning;
+
+    @FXML
+    private JFXButton btnShowroom;
+
+    @FXML
+    private JFXButton btnStorage;
+
+    @FXML
+    private JFXButton btnTimber;
+
+    @FXML
+    private VBox pnlTimber;
+
+    @FXML
+    private JFXButton btnAddStock;
+
+    @FXML
+    private JFXButton btnUpdateStock;
+
+    @FXML
+    private JFXButton btnRemoveStock;
+
+
+
+    @FXML
+    void initialize() throws IOException {
+
+        loadTimberRecords();
+
+    }
+
+    public void loadTimberRecords() throws IOException {
+        VBox vbox = new VBox(); // Create a new VBox to hold the records
+        vbox.setSpacing(4);
+        int arraySize = Db.timberRecordArray.size();
+        Node[] nodes = new Node[arraySize];
+        System.out.println(arraySize);
+
+        for (int i = 0; i < arraySize; i++) {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/timberRecord.fxml"));
+            recordController recordController = new recordController();
+            fxmlLoader.setController(recordController);
+            nodes [i]= fxmlLoader.load();
+            VBox.setMargin(nodes [i], new Insets(5, 0, 0, 0));
+            vbox.getChildren().add(nodes [i]);
+
+            recordController.setTrId1("T00"+Db.timberRecordArray.get(i).get(0));
+            recordController.setTrId2(Db.timberRecordArray.get(i).get(1));
+            recordController.setTrId3(Db.timberRecordArray.get(i).get(2));
+            recordController.setTrId4(Db.timberRecordArray.get(i).get(3));
+            recordController.setTrId5(Db.timberRecordArray.get(i).get(4));
+            recordController.setTrId6(Db.timberRecordArray.get(i).get(5));
+            recordController.setTrId7(Db.timberRecordArray.get(i).get(6));
+            recordController.setTrId8(Db.timberRecordArray.get(i).get(7));
+
+        }
+
+        // Replace the existing content of pnlTimber with the VBox
+        pnlTimber.getChildren().clear();
+        pnlTimber.getChildren().add(vbox);
+    }
+
+
+
+    @FXML
+    void btnFactoryOnAction(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/factoryForm.fxml"));
+        Parent dashboard = fxmlLoader.load();
+        AnchorPane container = (AnchorPane) anchorTimber.lookup("#anchorTimber");
+        container.getChildren().clear();
+        container.getChildren().add(dashboard);
+    }
+
+    @FXML
+    void btnLogoutOnAction(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/loginPageForm.fxml"));
+        Parent dashboard = fxmlLoader.load();
+        AnchorPane container = (AnchorPane) anchorTimber.lookup("#anchorTimber");
+        container.getChildren().clear();
+        container.getChildren().add(dashboard);
+    }
+
+    @FXML
+    void btnOverviewOnAction(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/dashBoardForm.fxml"));
+        Parent dashboard = fxmlLoader.load();
+        AnchorPane container = (AnchorPane) anchorTimber.lookup("#anchorTimber");
+        container.getChildren().clear();
+        container.getChildren().add(dashboard);
+    }
+
+    @FXML
+    void btnSawmillOnAction(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/sawmillForm.fxml"));
+        Parent dashboard = fxmlLoader.load();
+        AnchorPane container = (AnchorPane) anchorTimber.lookup("#anchorTimber");
+        container.getChildren().clear();
+        container.getChildren().add(dashboard);
+    }
+
+    @FXML
+    void btnSeasoningOnAction(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/seasoningForm.fxml"));
+        Parent dashboard = fxmlLoader.load();
+        AnchorPane container = (AnchorPane) anchorTimber.lookup("#anchorTimber");
+        container.getChildren().clear();
+        container.getChildren().add(dashboard);
+    }
+
+    @FXML
+    void btnShowroomOnAction(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/showroomForm.fxml"));
+        Parent dashboard = fxmlLoader.load();
+        AnchorPane container = (AnchorPane) anchorTimber.lookup("#anchorTimber");
+        container.getChildren().clear();
+        container.getChildren().add(dashboard);
+    }
+
+    @FXML
+    void btnStorageOnAction(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/storageForm.fxml"));
+        Parent dashboard = fxmlLoader.load();
+        AnchorPane container = (AnchorPane) anchorTimber.lookup("#anchorTimber");
+        container.getChildren().clear();
+        container.getChildren().add(dashboard);
+    }
+
+    @FXML
+    void btnTimberOnAction(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btnAddStockOnAction(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/addTimberForm.fxml"));
+        Parent anchorPane = loader.load();
+        addTimberFormController addTimberController = loader.getController();
+
+        // Set the TimberFormController reference
+        addTimberController.setTimberFormController(this);
+
+        Scene scene = new Scene(anchorPane);
+        Stage stage = new Stage();
+
+        stage.setTitle("Add Stock");
+        stage.setScene(scene);
+        stage.centerOnScreen();
+        stage.setResizable(false);
+        stage.show();
+    }
+
+
+    @FXML
+    void btnUpdateStockOnAction(ActionEvent event) {
+
+    }
+
+
+    @FXML
+    void btnRemoveStockOnAction(ActionEvent event) {
+
+    }
+
+    public void updateRecords() throws IOException {
+        VBox vbox = new VBox(); // Create a new VBox to hold the records
+        vbox.setSpacing(4);
+
+
+        int arraySize = Db.timberRecordArray.size();
+        Node[] nodes = new Node[arraySize];
+
+        for (int i = 0; i < arraySize; i++) {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/timberRecord.fxml"));
+            recordController recordController = new recordController();
+            fxmlLoader.setController(recordController);
+            nodes [i]= fxmlLoader.load();
+            VBox.setMargin(nodes [i], new Insets(5, 0, 0, 0));
+            vbox.getChildren().add(nodes [i]);
+
+            recordController.setTrId1("T00"+Db.timberRecordArray.get(i).get(0));
+            recordController.setTrId2(Db.timberRecordArray.get(i).get(1));
+            recordController.setTrId3(Db.timberRecordArray.get(i).get(2));
+            recordController.setTrId4(Db.timberRecordArray.get(i).get(3));
+            recordController.setTrId5(Db.timberRecordArray.get(i).get(4));
+            recordController.setTrId6(Db.timberRecordArray.get(i).get(5));
+            recordController.setTrId7(Db.timberRecordArray.get(i).get(6));
+            recordController.setTrId8(Db.timberRecordArray.get(i).get(7));
+
+        }
+
+        // Replace the existing content of pnlTimber with the VBox
+        pnlTimber.getChildren().clear();
+        pnlTimber.getChildren().add(vbox);
+    }
+
+
+
+}

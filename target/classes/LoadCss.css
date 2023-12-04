@@ -1,0 +1,22 @@
+.lable{
+    -fx-text-fill: black; /* Color in JavaFX is specified using -fx-text-fill */
+    -fx-font-family: 'Jaldi'; /* Font family */
+    -fx-font-size: 29px; /* Font size */
+    -fx-font-style: normal; /* Font style */
+    -fx-font-weight: normal; /* Font weight, use 'normal' or 'bold' */
+    -fx-line-height: normal; /* Line height */
+    -fx-background-color: #FFFF;
+}
+.delete{
+    -fx-background-image: url("asstes/loaddelete.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
+.delete:hover{
+    -fx-background-image: url("asstes/loaddeletehaving.png");
+}
+.face{
+    -fx-background-image: url("asstes/Facerecognition.png");
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+}
